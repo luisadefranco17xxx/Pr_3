@@ -1,0 +1,6 @@
+Product{productName='Hefe', price=0.1, ProductCategory='Frische'}
+Product{productName='Milch', price=1.9, ProductCategory='Frische'}
+Product{productName='Käse', price=1.9, ProductCategory='Frische'}
+Product{productName='Toilettepapier', price=0.9, ProductCategory='Home'}
+Product{productName='Seife', price=1.9, ProductCategory='Home'}
+Product{productName='Wurst', price=1.9, ProductCategory='Fleisch'}

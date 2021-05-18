@@ -1,0 +1,3 @@
+Product{productName='Toilettepapier', price=0.9, ProductCategory='Home'}
+Product{productName='Seife', price=1.9, ProductCategory='Home'}
+Product{productName='Wurst', price=1.9, ProductCategory='Fleisch'}
