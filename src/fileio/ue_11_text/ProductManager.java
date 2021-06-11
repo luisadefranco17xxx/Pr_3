@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 public class ProductManager {
     ArrayList<Product> products=new ArrayList<>();
-    //Product[] products=new Product[10];
 
 
     public void add(Product p){
@@ -26,6 +25,8 @@ public class ProductManager {
             bufferedWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            //bufferedReader.close();   //spostare qui
         }
 
     }
@@ -43,6 +44,8 @@ public class ProductManager {
             bufferedReader.close();
         } catch (IOException e) {
             e.printStackTrace();
+        }  finally {
+            //bufferedReader.close();   //spostare qui
         }
 
 

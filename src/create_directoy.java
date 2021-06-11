@@ -12,6 +12,7 @@ public class create_directoy {
         System.out.println("Enter the name of the desired directory: ");
         path = path + scanner.next();
         // File Object with Path from User Input
+        System.out.println("path = " + path);
         File file = new File(path);
         // Has Directory been created?
         // mkdir() -> Returns true if and only if the directory was created; false otherwise

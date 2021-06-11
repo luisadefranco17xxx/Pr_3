@@ -25,6 +25,7 @@ public class ue_1 {
         File file5 = new File("C:\\Users\\Luisa\\Documents\\documenti ufficiali\\loeschen.txt");
         //printls(dir.getPath());
         String path = "C:\\Users\\Luisa\\Documents\\documenti ufficiali\\";
+        printInformations(new File(path));
         printls(path);
 
         //printls2(file5.getAbsolutePath());
@@ -36,9 +37,10 @@ public class ue_1 {
         try{
             if(file.createNewFile()){
                 System.out.println("file2.getAbsolutePath()+\"filename\"+file2.getName() = "
-                        + file.getAbsolutePath()+"filename"+file.getName());
+                        + file.getAbsolutePath()+";  filename: "+file.getName());
                 System.out.println("file.getParent()"+file.getParent());
                 System.out.println("file.getPath() = " + file.getPath());
+                System.out.println("file.toString() = " + file.toString());
                 System.out.println("file.isDirectory() = " +file.isDirectory());
                 System.out.println("file.canRead() = " + file.canRead());
                 System.out.println("file.canWrite() = " + file.canWrite());
@@ -46,6 +48,7 @@ public class ue_1 {
 
             }else{
                 System.out.println("die Detei existeiert schon" );
+                System.out.println("file.getParent()"+file.getParent());
             }
         }catch(IOException e){
             e.printStackTrace();
@@ -96,13 +99,9 @@ public class ue_1 {
                 // for each pathname in pathname array
                 for (String path : paths) {
                     // prints file and directory paths
-
                     System.out.println(path);  //recursive
-
                 }
             }
-
-
         } catch(Exception e) {
             // if any error occurs
             e.printStackTrace();

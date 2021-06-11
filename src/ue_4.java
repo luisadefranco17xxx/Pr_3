@@ -63,12 +63,10 @@ public class ue_4 {
 
                     printDirectoryContent(sub_file);
                 }
-
             } else {
                 System.out.println("f.getName() = " + f.getName());
                 System.out.println("f.getPath() = " + f.getAbsolutePath());
                 System.out.println("f.length() = " + f.length());
-
             }
         } catch (Exception e){
             e.printStackTrace();

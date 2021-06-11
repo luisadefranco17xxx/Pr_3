@@ -19,7 +19,7 @@ public class ue_6 {
 
         String fileSeparator = System.getProperty("file.separator");
         File source = new File("C:" + fileSeparator + "test_ZULOESCHEN" );
-        //create_files(source);
+        create_files(source);
         //rename_files(source);
         delete_files(source);
     }
@@ -50,8 +50,6 @@ public class ue_6 {
       }else{
           System.out.println("source soll eine directory sein");
       }
-
-
     }
 
     public static void delete_files(File source) {
